@@ -1,0 +1,33 @@
+@import url("reset.css");
+
+p{
+    color: green
+}
+
+.title{
+    color: aqua;
+}
+.sub-title{
+    color: blue;
+}
+.text > p{
+    color: black;
+    }
+.text ~ p{
+    color:blue;
+}
+.text + p{
+    color: red;
+}
+
+
+.link-uk,
+.link{
+    color:red;
+}
+.list-id {
+    color: goldenrod;
+}
+#relief {
+    color:greenyellow
+}

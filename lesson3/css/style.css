@@ -7,26 +7,43 @@ p{
 .title{
     color: aqua;
 }
+
 .sub-title{
     color: blue;
 }
-.text > p{
+
+.text p{
     color: black;
-    }
-.text ~ p{
-    color:blue;
 }
-.text + p{
+
+.text > p {
+    color:violet
+}
+
+.text2 ~ p {
+    color: rgb(20, 220, 220);
+    }
+
+.text3 + p {
+    color:pink
+}
+
+.text4 p {
+    color:rgb(145, 8, 8);
+}
+#riverlink {
     color: red;
 }
 
-
+.text4 a {
+    color:rgb(52, 11, 236);
+}
 .link-uk,
-.link{
-    color:red;
+.link {
+    color:red ;
 }
 .list-id {
-    color: goldenrod;
+    color: navy;
 }
 #relief {
     color:greenyellow
